@@ -1,0 +1,79 @@
+// Custom keybindings
+[
+
+    {
+        "command" : "cursorLeft",
+        "key" : "alt+1",
+        "when": "textInputFocus"
+    },
+    {
+        "command" : "cursorUp",
+        "key" : "alt+2",
+        "when": "textInputFocus"
+    },   
+    {
+        "command" : "cursorDown",
+        "key" : "alt+3",
+        "when": "textInputFocus"
+    },
+    {
+        "command" : "cursorRight",
+        "key" : "alt+4",
+        "when": "textInputFocus"
+    },
+    {
+        "command" : "cursorEnd",
+        "key" : "alt+5",
+        "when": "textInputFocus"
+    },
+    { 
+        "command": "workbench.action.terminal.focus",
+        "key": "ctrl+`"
+    },
+    { 
+        "command": "workbench.action.focusActiveEditorGroup",
+        "key": "ctrl+`",  
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+alt+down",
+        "command": "-editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+alt+up",
+        "command": "-editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "-editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    }
+
+]
